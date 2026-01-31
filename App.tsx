@@ -126,8 +126,8 @@ const App: React.FC = () => {
                   <h3 className="text-yellow-400 font-syncopate text-xs uppercase tracking-widest drop-shadow-[0_0_5px_rgba(250,204,21,0.5)] relative z-10">Holy Scripture</h3>
                   <div className="bg-slate-900/40 p-6 rounded-2xl italic text-slate-200 relative border border-white/5 shadow-inner">
                     <span className="absolute top-2 left-4 text-4xl text-cyan-500/20 font-serif">"</span>
-                    <span className="relative z-10">{analysis.verse}</span>
-                    <div className="mt-4 not-italic font-syncopate text-[10px] text-yellow-500/80 text-right">
+                    <span className="relative z-10 block animate-fade-in-up delay-200">{analysis.verse}</span>
+                    <div className="mt-4 not-italic font-syncopate text-[10px] text-yellow-500/80 text-right animate-fade-in-up delay-500">
                       — {analysis.reference}
                     </div>
                   </div>
